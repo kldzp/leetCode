@@ -1,10 +1,5 @@
-/**
- * 
- */
-package Leet;
 
-import java.util.Collection;
-import java.util.Collections;
+package Leet;
 
 /**
  * @author zp
@@ -18,7 +13,7 @@ public class leet13 {
 	public static void main(String[] args) {
 		String input = "MCMXCIV";
 		int num = calculate(input);
-		
+		System.out.println(num);
 	}
 	public static boolean check(int i,int length,int result) {
 		if (i>=length) {

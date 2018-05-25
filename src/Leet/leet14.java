@@ -1,14 +1,14 @@
 package Leet;
 
-import java.sql.Time;
-
 public class leet14 {
 	public static void main(String[] args) {
 		String[] strings = {"flower","flow","flight"};
 		long start = System.nanoTime();
 		String result = findCommonPrefix(strings);
+		System.out.println(result);
 		long mid = System.nanoTime();
 		String leet = longestCommonPrefix(strings);
+		System.out.println(leet);
 		long end = System.nanoTime();
 		System.out.println((mid-start)-(end-mid));
 	}
